@@ -1,0 +1,1 @@
+<button type="primary" bindtap="send">发送短信</button>

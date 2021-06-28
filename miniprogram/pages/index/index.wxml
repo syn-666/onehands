@@ -1,0 +1,20 @@
+<view class="top">
+  <image src="cloud://onehands-8gt9feadad3b9139.6f6e-onehands-8gt9feadad3b9139-1306243526/UI/home/top.jpeg"
+    mode="widthFix">
+  </image>
+</view>
+<view class="middle">
+  <view class="middle_btn">
+      <image src="cloud://onehands-8gt9feadad3b9139.6f6e-onehands-8gt9feadad3b9139-1306243526/UI/home/代扔服务.png" mode="widthFix" />
+  </view>
+  <view class="bottom_btn">
+      <image src="cloud://onehands-8gt9feadad3b9139.6f6e-onehands-8gt9feadad3b9139-1306243526/UI/home/预约回收.png" mode="widthFix" />
+      <image src="cloud://onehands-8gt9feadad3b9139.6f6e-onehands-8gt9feadad3b9139-1306243526/UI/home/大客户订单.png" mode="widthFix" />
+  </view>
+  <view class="bottom_rabbish">
+    <image  src="cloud://onehands-8gt9feadad3b9139.6f6e-onehands-8gt9feadad3b9139-1306243526/UI/home/广告图.png" mode="" />
+  </view>
+  <view class="huishou">
+    <image src="cloud://onehands-8gt9feadad3b9139.6f6e-onehands-8gt9feadad3b9139-1306243526/UI/home/回收流程.png" mode="widthFix" />
+  </view>
+</view>

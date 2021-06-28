@@ -1,0 +1,40 @@
+.top {
+  width: 100%;
+}
+.top image {
+  width: 100%;
+}
+.middle_btn {
+  display: flex;
+  padding: 20rpx 30rpx;
+  justify-content: center;
+}
+.middle_btn image {
+  width: 100vw;
+}
+.bottom_btn {
+  display: flex;
+  justify-content: center;
+  padding: 20rpx 15rpx;
+}
+.bottom_btn image {
+  padding: 0rpx 15rpx;
+}
+.bottom_rabbish {
+  display: flex;
+  justify-content: center;
+  padding: 20rpx 0rpx;
+}
+.bottom_rabbish image {
+  width: 100%;
+  height: 40vw;
+}
+.huishou {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+page {
+  background: #fff;
+  padding-bottom: 30rpx;
+}

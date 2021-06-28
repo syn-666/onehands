@@ -1,0 +1,117 @@
+.top {
+    background : #3CB371;
+    width      : 100%;
+    height     : 45vh;
+    padding-top: 50rpx;
+
+    .userInfo {
+        display       : flex;
+        vertical-align: bottom;
+
+        .avatar {
+            margin: 0 70rpx;
+            image {
+                width        : 120rpx;
+                height       : 120rpx;
+                border-radius: 50%;
+            }
+        }
+
+        .user {
+            padding-top    : 30rpx;
+            justify-content: center;
+            align-items    : center;
+
+            .username {
+                color    : #fff;
+                font-size: 25rpx;
+            }
+
+            .id {
+                margin-top: 10rpx;
+                font-size: 20rpx;
+            }
+        }
+
+
+    }
+
+    .account {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60rpx;
+        .yu_e {
+            display: flex;
+            width           : 80vw;
+            height          : 7vh;
+            border          : 6rpx solid #fff;
+            background-color: #fff;
+            border-radius   : 10rpx;
+            // padding: 0rpx 10rpx;
+            vertical-align: bottom;
+            align-items: center;
+            
+            .icon{
+                display: flex;
+                padding: 0rpx 30rpx;
+                .iconfont{
+                    color: var(--themeColor);
+                    text-align: center;
+                    font-size: 35rpx;
+                    padding-right: 10rpx;
+                }
+                
+                
+            }
+            .money{
+                color: var(--themeColor);
+                font-size: 35rpx;
+            }
+        }
+    }
+
+
+}
+
+.middle{
+    position: absolute;
+    top:35%;
+    left:10%;
+    
+    .services{
+        border: 1rpx solid #fff;
+        border-radius: 10rpx;
+        background-color: #fff;
+        
+        .help{
+            margin: 10rpx 20rpx;
+            font-weight: 600;
+            padding: 10rpx 0;
+            border-bottom: 1rpx solid #ccc;
+        }
+        .content{
+            display: flex;
+            display: inline-flex;
+            flex-direction: column;
+            width: 80vw;
+            // height:20vh;
+            .row{
+                display: flex;
+                display: inline-flex;
+                flex-direction: row;
+                padding: 20rpx 0;
+                .item{
+                    flex:1;
+                    image{
+                        width:150rpx;
+                        height: 150rpx;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+

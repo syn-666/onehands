@@ -1,0 +1,50 @@
+<view class="top">
+    <view class="userInfo" wx:if="{{userInfo.avatarUrl}}">
+        <view class="avatar">
+            <image src="{{userInfo.avatarUrl}}" mode="widthFix" />
+        </view>
+        <view class="user">
+            <view class="username" style="width: 166rpx; height: 44rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx">
+                {{userInfo.nickName}}
+            </view>
+            <view class="id">ID:{{id}}</view>
+        </view>
+        <!-- <button type="warn">设置</button> -->
+    </view>
+    <view wx:else>
+        <button type="primary" bind:tap="getUserInfo" style="position: relative; top: 100rpx">
+            授权
+        </button>
+    </view>
+    <view class="account" wx:if="{{userInfo.avatarUrl}}">
+        <view class="yu_e">
+            <view class="icon">
+                <view class="iconfont icon-qianbao1"></view>
+                <text class="name">账户余额 :</text>
+            </view>
+            <text class="money">¥ 999</text>
+        </view>
+    </view>
+</view>
+<view class="middle" wx:if="{{userInfo.avatarUrl}}">
+    <view class="services">
+        <view class="help">服务与帮助</view>
+        <view class="content">
+            <view class="row">
+                <view class="item">
+                    <image mode="widthFix" src="cloud://onehands-8gt9feadad3b9139.6f6e-onehands-8gt9feadad3b9139-1306243526/UI/my/消息中心150x150.png" />
+                </view>
+                <view class="item">
+                    <image mode="widthFix" src="cloud://onehands-8gt9feadad3b9139.6f6e-onehands-8gt9feadad3b9139-1306243526/UI/my/关于我们150x150.png" />
+                </view>
+                <view class="item">
+                    <image mode="widthFix" src="cloud://onehands-8gt9feadad3b9139.6f6e-onehands-8gt9feadad3b9139-1306243526/UI/my/意见反馈150x150.png" />
+                </view>
+                <view class="item">
+                    <image mode="widthFix" src="cloud://onehands-8gt9feadad3b9139.6f6e-onehands-8gt9feadad3b9139-1306243526/UI/my/加盟代理150x150.png" />
+                </view>
+            </view>
+            
+        </view>
+    </view>
+</view>
